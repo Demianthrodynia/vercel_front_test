@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "https://clon-sz-i4q8.vercel.app/"
+const url = "https://www.clon-sz-i4q8.vercel.app/"
 // const url = "http://localhost:3000"
 
 
