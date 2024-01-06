@@ -1,0 +1,146 @@
+.screen-view {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 81.5vh;
+  width: 100%;
+}
+
+.frame {
+  text-align: center;
+  border: 8px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(215deg, #470000, #000000, #000000, #2c005f);
+  background-size: 800% 800%;
+  filter: grayscale(0.8) brightness(1.1);
+
+  animation: fondo 16s ease infinite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 199, 199);
+  width: 50em;
+  height: 400px;
+  display: flex;
+  margin: 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-area {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.panelDesign {
+  width:30em
+}
+
+.update-panel, .delete-panel {
+  width: 25em;
+  padding: 20px;
+  margin-bottom:1em;
+  background-color: #f9f9f9;
+  margin-left: 20px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  max-height: 30px;
+}
+
+.update-panel.open, .delete-panel.open {
+  max-height: 25em;
+}
+
+#update-panel-title, #delete-panel-title {
+  margin-top: -0.6em;
+  cursor: pointer;
+  text-align:center;
+  color: red;
+}
+
+
+.update-panel-content {
+  margin-top: 10px;
+}
+
+.update-panel label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.update-panel input[type='text'],
+.update-panel textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.update-panel button, .delete-panel button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.centerButton {
+  display:flex;
+  justify-content:center
+}
+
+.character-details::before,
+.character-details::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.character-details::before {
+  top: 5px;
+  left: 5px;
+}
+
+.character-details::after {
+  bottom: 5px;
+  right: 5px;
+}
+
+.card-content {
+  margin-top: 2.5em;
+}
+
+.padding {
+  width: 25em;
+}
+
+
+.myEventDesign {
+  height: 10em;
+  width: 10em;
+  display: grid;
+  padding-left: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 1em;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: goldenrod;
+  overflow-x: hidden;
+  overflow-y:auto
+}
+

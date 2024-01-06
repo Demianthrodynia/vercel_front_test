@@ -1,0 +1,131 @@
+.adminDesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+    height: 85vh;
+    width: 100vw;
+
+    background-color: goldenrod
+}
+
+.adminContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+
+    background-color: cornflowerblue;
+}
+
+.adminButtonContainer{
+    display: flex;
+    
+    height: 20%;
+    margin-top: 0.5em;
+}
+
+#adminInput {
+    width: 20em;
+    margin-top: 1em;
+    margin-bottom: -1.5em
+}
+
+.resultsContainerDesign {
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+    width: 100%
+}
+
+.resultsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.resultsPadding {
+    
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    height: 40em;
+    width: 95%;
+    overflow: auto
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+    height: 75%;
+    width: 70%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow:  -3px -3px 3px 3px grey;
+
+    overflow-y:hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rebeccapurple green;
+}
+
+#detail {
+    box-shadow: 3px 3px 3px 3px grey
+}
+
+
+.userDataContainer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 1.5em;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 549px) {
+    .adminDesign {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    
+        height: 78vh;
+        width: 100vw;
+    
+        background-color: goldenrod
+    }
+
+    .adminButtonContainer{
+        display: flex;
+        justify-content: space-evenly;    
+        margin-top: -2em;    
+    }
+
+    .formContainerButtonDesign {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .adminInput {
+        z-index: 1;
+    }
+}

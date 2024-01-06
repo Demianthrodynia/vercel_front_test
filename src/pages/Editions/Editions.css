@@ -1,0 +1,91 @@
+.editionsDesign {
+
+    height: 81vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 35, 35);
+}
+
+.editionsContainer {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editionsWrap {
+    height: 80%;
+    width: 90%;
+    display: grid;
+    padding-left: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1em;
+    background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: goldenrod;
+    overflow-x: hidden;
+    overflow-y:auto
+}
+
+.modalContainer {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+}
+
+
+.editionsDesignPadding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 17.5%;
+}
+
+.editionsCheckboxDesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  transform: scale(2);
+  padding: 10px;
+  margin: 1em
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .editionsContainer {
+        width: 90%;
+    }
+
+    .editionsWrap {
+        padding: 0;
+        grid-template-columns: 100%;
+    }
+
+    .editionsDesign{
+        flex-direction: column;
+    }
+    
+    .editionsCheckboxDesign {
+        flex-direction: row;
+    }
+}

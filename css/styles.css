@@ -1,0 +1,31 @@
+.fakeClassSoThisIsSeenAsCSS {
+  display:none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+
+.halloween {
+    background-image: linear-gradient(red, darkred);
+    background: linear-gradient(35deg, #470000, #000000, #000000, #2c005f);
+    background-size: 800% 800%;
+    filter: grayscale(0.8)  brightness(1.1);
+
+    animation: fondo 16s ease infinite;
+  }
+  
+  @keyframes fondo {
+    0% {
+      background-position: 81% 0%;
+    }
+    50% {
+      background-position: 20% 100%;
+    }
+    100% {
+      background-position: 81% 0%;
+    }
+  }
+
+.halloween h1, .halloween h2, .halloween h3, 
+.halloween h4, .halloween h5, .halloween h6 {
+    font-family: Nosifer;
+} 

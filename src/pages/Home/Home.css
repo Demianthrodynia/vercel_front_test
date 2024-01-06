@@ -1,0 +1,15 @@
+.homeDesign {
+    display: flex;
+    justify-content: center;
+
+    height: 81vh;
+    width: 100%;
+
+}
+
+.homeImgDesign{
+    overflow: hidden;
+    height:auto;
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,53 @@
+.loginDesign {
+
+    height: 81vh;
+    width: 98vw;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    height: 30em;
+    width: 20em;
+    background-color: azure;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: rgb(112, 205, 218);
+    border-radius: 15%
+}
+
+.loginButtonDesign {
+
+    width: 6em;
+    height: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(112, 158, 218);;
+
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    margin: 3em
+}
+
+.loginButtonDesign:hover {
+
+    background-color: darkseagreen;
+    transition: 0.3s;
+}

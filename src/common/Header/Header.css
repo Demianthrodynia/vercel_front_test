@@ -1,0 +1,52 @@
+#navBar {
+    width: 100%;
+    background-color: rgba(255, 59, 59, 0.753) !important;
+    
+}
+
+#logo {
+    margin-top: 1em;
+    margin-left: -3em
+}
+
+
+
+.navbar-dark {
+--bs-navbar-color: rgba(239, 241, 93, 0.75);                               
+--bs-navbar-hover-color: rgb(112, 158, 218);;;         
+--bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);         
+--bs-navbar-brand-color: rgb(112, 158, 218);;;       
+
+font-size:x-large;
+         
+border-bottom: solid;         
+border-width: 0.1em;         
+border-color: black;         
+         
+--bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);         
+transition: 0.5s         
+         
+}         
+         
+         
+.navbar-brand:focus, .navbar-brand:hover {         
+    color: rgb(112, 158, 218);;         
+             
+}         
+         
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {         
+    color: rgb(112, 158, 218);;         
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(112, 158, 218)
+}
+
+
+@media (max-width: 800px) {
+    #logo{
+        margin-left: 1em;
+        margin-bottom: 1em
+    }
+
+}
